@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./CSS/style.css")
+        link(rel="icon", type="image/png" sizes="32x32" href="./images/favicon-32x32.png")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet")
+        title Frontend Mentor | Order summary card
+    body
+        div(class="card") 
+            div(class="card-header") 
+                div(class="picture") 
+                    img(src="./images/illustration-hero.svg", alt="illustration-hero")
+            div(class="card-main")
+                h1 Order Summary 
+                |
+                p You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                |
+            div(class="annual-plan") 
+                div(icon-music) 
+                    img(src="./images/icon-music.svg", alt="icon-music")
+                div(class="plan")
+                    h2 Annual Plan
+                    span $59.99/year
+                a(href="#") Change                
+            button(class="proceed-payment") Proceed to Payment
+            button(class="cancel") Cancel Order 
+        div(class="card-footer") 
+            div(class="attribution")
+                | Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                | Coded by <a href="#">Leonard Sumoza</a>.
